@@ -11,7 +11,7 @@ const {
     delay,
     makeCacheableSignalKeyStore,
     Browsers
-} = require("@whiskeysockets/baileys");
+} = require("baileys");
 
 // Function to generate a random Mega ID
 function randomMegaId(length = 6, numberLength = 4) {
